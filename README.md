@@ -29,6 +29,8 @@ _If you run into problems contact Larry Tunseth at larrydeantun@gmail.com_
 _HTML, CSS, Bootstrap, jQuery, JavaScript, GitHub, Git_
 
 ## Specifications
+*words
+  *words
 
 
 ### License
