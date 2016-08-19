@@ -33,7 +33,7 @@ _HTML, CSS, Bootstrap, jQuery, JavaScript, GitHub, Git_
 * _It requires the user to enter a whole number._
   * _Example Input: word, $, 3.14_
   * _Example Output: Please enter a whole number_
-* _It can count up to the entered number_
+* _It can count up to the entered number._
   * _Example Input: 2_
   * _Example Output: [1,2]_
 * _It returns "Ping" for numbers divisible by 3._
