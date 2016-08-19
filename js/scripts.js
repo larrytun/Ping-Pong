@@ -11,7 +11,7 @@ for (var i = 1; i <= userInput; i++){
     result.push ("Ping");
   } else if (isNaN(userInput)){
     result.push ("Enter a whole number only please")
-  } else 
+  } else
     result.push(i);
 }
 return result
@@ -33,11 +33,11 @@ return result
 // user
 $(document).ready(function() {
   $("form#pingPongForm").submit(function(event) {
-    event.preventDefault();
     var userInput = parseInt($("input#number").val());
     var result = pingPongFun(userInput);
     result.forEach(function(output) {
-    $("#output").append("<li>" + output + "</li>")
+    $("#output").show().append("<li>" + output + "</li>");
+    event.preventDefault();
   });
 });
 });
