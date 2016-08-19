@@ -1,19 +1,17 @@
 // buisness
 debugger;
-var inputs = [];
-var pingOrPongs =["Ping","Pong","Ping-Pong"];
-for (var i = 0; i <= inputs; i++);
-  var pingPongFun = function(userInput){
-  if ((userInput % 15) === 0){
-    return "Ping-Pong";
-  } else if ((userInput % 5) === 0){
-    return "Pong";
-  } else if ((userInput % 3) === 0){
-    return "Ping";
-  } else if (isNaN(userInput)){
-    return "Enter a whole number only please"
-  } else ((userInput % 3) !==0) || ((userInput % 5) !==0) || ((userInput % 15) !==0)
-    return userInput
+var result = [];
+for (var i = 1; i <= userInput; i++){
+  if ((i % 15) === 0){
+    result.push ("Ping-Pong");
+  } else if ((i % 5) === 0){
+    result.push ("Pong");
+  } else if ((i % 3) === 0){
+    result.push ("Ping");
+  } else if (isNaN(i)){
+    result.push ("Enter a whole number only please")
+  } else ((i % 3) !==0) || ((i % 5) !==0) || ((i % 15) !==0)
+    result.push (i)
 
 };
 
