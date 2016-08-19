@@ -1,5 +1,4 @@
 // buisness
-debugger;
 function pingPongFun(userInput){
 var result = [];
 for (var i = 1; i <= userInput; i++){
@@ -16,19 +15,6 @@ for (var i = 1; i <= userInput; i++){
 }
 return result
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // user
 $(document).ready(function() {
