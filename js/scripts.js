@@ -1,5 +1,6 @@
 // buisness
 debugger;
+function pingPongFun(userInput){
 var result = [];
 for (var i = 1; i <= userInput; i++){
   if ((i % 15) === 0){
@@ -10,9 +11,10 @@ for (var i = 1; i <= userInput; i++){
     result.push ("Ping");
   } else if (isNaN(i)){
     result.push ("Enter a whole number only please")
-  } else ((i % 3) !==0) || ((i % 5) !==0) || ((i % 15) !==0)
-    result.push (i)
-
+  } else ((i % 3) !==0) && ((i % 5) !==0) && ((i % 15) !==0)
+    result.push (i);
+}
+  return result;
 };
 
 
