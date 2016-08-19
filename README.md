@@ -29,9 +29,22 @@ _If you run into problems contact Larry Tunseth at larrydeantun@gmail.com_
 _HTML, CSS, Bootstrap, jQuery, JavaScript, GitHub, Git_
 
 ## Specifications
-* _words_
-  * _words_
 
+* _It requires the user to enter a whole number._
+  * _Example Input: word, $, 3.14_
+  * _Example Output: Please enter a whole number_
+* _It can count up to the entered number_
+  * _Example Input: 2_
+  * _Example Output: [1,2]_
+* _It returns "Ping" for numbers divisible by 3._
+  * _Example Input: 3_
+  * _Example Output: [1,2,Ping]_
+* _It returns "Pong" for numbers divisible by 5._
+  * _Example Input: 5_
+  * _Example Output: [1,2,Ping,4,Pong]_
+* _It returns "Ping-Pong" for numbers divisible by 15._
+  * _Example Input: 15_
+  * _Example Output: [...7,8,Ping,Pong,11,Ping,13,15,Ping-Pong]_
 
 ### License
 
