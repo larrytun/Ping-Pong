@@ -9,12 +9,12 @@ for (var i = 1; i <= userInput; i++){
     result.push ("Pong");
   } else if ((i % 3) === 0){
     result.push ("Ping");
-  } else if (isNaN(i)){
+  } else if (isNaN(userInput)){
     result.push ("Enter a whole number only please")
-  } else ((i % 3) !==0) && ((i % 5) !==0) && ((i % 15) !==0)
-    result.push (i);
+  } else 
+    result.push(i);
 }
-  return result;
+return result
 };
 
 
