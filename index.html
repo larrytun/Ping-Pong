@@ -8,37 +8,39 @@
   <title>Ping-Pong!</title>
 </head>
 <body>
-  <div class="jumbotron">
-      <h3>Ping-Pong</h3>
-  </div>
-  <div class="sidebar">
-    <h6>About Ping Pong</h6>
-    <h4>Created by:</h4>
-    <h5>Larry Tunseth</h5>
-    <h4>Github Username/URL:</h4>
-    <h5><a href="https://github.com/larrytun?tab=repositories">Larrytun</a></h5>
-    <h4>Week 3 Project for:</h4>
-    <h5>Into to Programming</h5>
-  </div>
   <div class="container">
-    <form id="pingPongForm">
-      <h1>Let's play!</h1>
-      <h2>Rules:</h2>
-      <p>Ping Pong will count up to your number with the following exceptions:</p>
-      <ol>
-        <li>Numbers divisible by 3 become "Ping"</li>
-        <li>Numbers divisible by 5 become "Pong"</li>
-        <li>Numbers divisible by 15 become "Ping-Pong"</li>
-      </ol>
-      <div class="form-group">
-        <label for="number">Enter your number here: </label>
-        <input id="number" class="formcontrol" type="text" required>
-        <button class="btn btn-secondary">Ping-Pong!</button>
-      </div>
-      <div id=userOutput>
-        <ul id="output"></ul>
-      </div>
-    </form>
+    <div class="jumbotron">
+        <h3>Ping-Pong</h3>
+    </div>
+    <div class="sidebar">
+      <h6>About Ping Pong</h6>
+      <h4>Created by:</h4>
+      <h5>Larry Tunseth</h5>
+      <h4>Github Username/URL:</h4>
+      <h5><a href="https://github.com/larrytun?tab=repositories">Larrytun</a></h5>
+      <h4>Week 3 Project for:</h4>
+      <h5>Into to Programming</h5>
+    </div>
+    <div class="content">
+      <form id="pingPongForm">
+        <h1>Let's play!</h1>
+        <h2>Rules:</h2>
+        <p>Ping Pong will count up to your number with the following exceptions:</p>
+        <ol>
+          <li>Numbers divisible by 3 become "Ping"</li>
+          <li>Numbers divisible by 5 become "Pong"</li>
+          <li>Numbers divisible by 15 become "Ping-Pong"</li>
+        </ol>
+        <div class="form-group">
+          <label for="number">Enter your number here: </label>
+          <input id="number" class="formcontrol" type="text" required>
+          <button class="btn btn-secondary">Ping-Pong!</button>
+        </div>
+        <div id=userOutput>
+          <ul id="output"></ul>
+        </div>
+      </form>
+    </div>
   </div>
 </body>
 </html>
