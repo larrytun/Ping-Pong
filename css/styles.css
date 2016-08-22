@@ -1,3 +1,62 @@
-#output {
+#userOutput {
   display: none;
+}
+
+body {
+  background-color: #E6E6E6;
+}
+
+h1 {
+  font-size: 2.4em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 4.5em;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.7em;
+  font-weight: 600;
+  color: #F5DFB3;
+}
+
+h5 {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: white;
+}
+
+h6 {
+  font-size: 2.2em;
+  font-weight: 600;
+}
+
+.container{
+  margin-left: 25em;
+  margin-top: 4em;
+}
+
+.sidebar {
+  width: 24em;
+  height: 38em;
+  float: left;
+  background-color: #8FBC8E;
+  padding-left: 1em;
+  padding-top: 8em;
+}
+
+.btn {
+  background-color: #C0C0C0;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #F5DFB3;
 }
