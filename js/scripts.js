@@ -17,10 +17,11 @@ return result;
 // user
 $(document).ready(function() {
   $("form#pingPongForm").submit(function(event) {
+    $("#userOutput").empty();
     var userInput = parseInt($("input#number").val());
     var result = pingPongFun(userInput);
     result.forEach(function(output) {
-    $("#userOutput").show().append("<li>" + output + "</li>");
+    $("#userOutput").append("<li>" + output + "</li>");
     event.preventDefault();
   });
 });
